@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //react JSX 영역
+        //아무거나 쓸수 없다.
+        //삼항연산자, && . || 사용가능
+
+        //react 함수영역
+        // if / switch-case / for 사용가능
+
+        // 삼항연산자 :  (조건) ? (참) : (거짓)  ****
+        // && -> 조건 && 참결과 -> 조건이 참일때 ****
+        // || => 조건이 거짓일때 || 거짓의 결과 * 
+
+        const isPlay1 = true;
+        const isPlay2 = false;
+        const isPlay3 = undefined;
+
+        const result1 = isPlay1 === true ? '참' : '거짓'
+        console.log(result1);
+
+        const result2 = isPlay2 ? '참1' : '거짓1'
+        console.log(result2);
+
+        const result3 = isPlay1 === true && '참결과'
+        console.log(result3);
+
+        const result4 = isPlay1 && '참결과'
+        console.log(result4);
+
+        const result5 = isPlay2 || '거짓'
+        console.log(result5);
+
+        const result6 = isPlay3 || '값없음'
+        console.log(result6);
+
+
+        /*
+            다중 if문
+            
+            조건1 && 결과1
+            조건2 && 결과2
+            조건3 && 결과3
+            조건4 && 결과4
+        */
+
+
+    </script>
+</body>
+
+</html>

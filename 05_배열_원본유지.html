@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        const arr = [10, 20, 30, 40];
+        arr.push(60);
+        arr.push(70);
+        arr.push(80);
+        arr.push(90);
+        arr.push(100);
+        arr.push(110);
+        arr.push(120);
+
+        console.log(arr);
+
+        // 불변성, 원본유지, 사본을 만들어서 작업한다.
+        //concat() , ...스프레드 연산자
+
+        const arr1 = [10, 20, 30, 40];
+        const arr2 = arr1.concat();
+
+        console.log(arr1);
+        console.log(arr2);
+
+        const arr3 = arr1.concat(60, 70, 80, 90);
+        console.log(arr3);
+
+    </script>
+</body>
+
+</html>
