@@ -8,7 +8,18 @@
  자바스크립트 친화적 es6 기반로 배우기가 쉽다 
 
 
-react 진도 1. 리액트에 필요한 자바스크립트 2. 리액트 작성법 ( state , props ) 3. hooks - useState / useRef / useEffect  4. 스타일 :sass , styeld-component 5. 리액트에서 ajax 요청방법 ( axios / Fetch ) 6. 성능관련 : useMemo / useCallback  7. 상태분리 useReducer 8. Single Page Application: spa - router  9. 상태관리 ( context , redux ) 
+# react 진도 
+1. 리액트에 필요한 자바스크립트 
+2. 리액트 작성법 ( state , props ) 
+3. hooks - useState / useRef / useEffect  
+4. 스타일 :sass , styeld-component 
+5. 리액트에서 ajax 요청방법 ( axios / Fetch ) 
+6. 성능관련 : useMemo / useCallback  
+7. 상태분리 useReducer 
+8. Single Page Application: spa - router  
+9. 상태관리 ( context , redux ) 
+
+
 # react 에 필요한 es6(ecmascript) 정리하기 
 1. let / const let 은 변수에 재할당이 가능하지만, const 는 변수 재선언, 재할당 모두 불가능  /  {} scope  
 2. 템플릿 리터럴(Template literal) 새로운 문자열 표기법 1) backtick (`) 2) 변수 처리는 ${변수} 
